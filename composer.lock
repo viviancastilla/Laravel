@@ -1,0 +1,190 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "91afbb2cffbc18e3faf9bb5cc926f50b",
+    "packages": [
+        {
+            "name": "rhinophp/rhinophp",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kalwar/rhinophp-core.git",
+                "reference": "ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kalwar/rhinophp-core/zipball/ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c",
+                "reference": "ef8594cf1fac64d4dadda7fc5cdb885c5528ca2c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "rhinophp\\rhinophp\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Santosh Kalwar",
+                    "email": "santoshkalwar@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/kalwar/rhinophp-core/issues",
+                "source": "https://github.com/kalwar/rhinophp-core/tree/1.0.1"
+            },
+            "time": "2022-03-28T16:52:26+00:00"
+        },
+        {
+            "name": "symfony/flex",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/flex.git",
+                "reference": "8ce1acd9842abe0e9b4c4a0bd3f259859516c018"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/8ce1acd9842abe0e9b4c4a0bd3f259859516c018",
+                "reference": "8ce1acd9842abe0e9b4c4a0bd3f259859516c018",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.1",
+                "php": ">=8.0"
+            },
+            "conflict": {
+                "composer/semver": "<1.7.2"
+            },
+            "require-dev": {
+                "composer/composer": "^2.1",
+                "symfony/dotenv": "^5.4|^6.0",
+                "symfony/filesystem": "^5.4|^6.0",
+                "symfony/phpunit-bridge": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Symfony\\Flex\\Flex"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Flex\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien.potencier@gmail.com"
+                }
+            ],
+            "description": "Composer plugin for Symfony",
+            "support": {
+                "issues": "https://github.com/symfony/flex/issues",
+                "source": "https://github.com/symfony/flex/tree/v2.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-03-03T07:50:46+00:00"
+        },
+        {
+            "name": "symfony/skeleton",
+            "version": "v7.2.99",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/skeleton.git",
+                "reference": "de7bcdd00447421b98e122d49651a630910dc939"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/skeleton/zipball/de7bcdd00447421b98e122d49651a630910dc939",
+                "reference": "de7bcdd00447421b98e122d49651a630910dc939",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "php": ">=8.2",
+                "symfony/flex": "^2"
+            },
+            "conflict": {
+                "symfony/symfony": "*"
+            },
+            "replace": {
+                "symfony/polyfill-ctype": "*",
+                "symfony/polyfill-iconv": "*",
+                "symfony/polyfill-php72": "*",
+                "symfony/polyfill-php73": "*",
+                "symfony/polyfill-php74": "*",
+                "symfony/polyfill-php80": "*",
+                "symfony/polyfill-php81": "*",
+                "symfony/polyfill-php82": "*"
+            },
+            "type": "project",
+            "extra": {
+                "symfony": {
+                    "require": "7.2.*",
+                    "allow-contrib": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "App\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A minimal Symfony project recommended to create bare bones applications",
+            "support": {
+                "issues": "https://github.com/symfony/skeleton/issues",
+                "source": "https://github.com/symfony/skeleton/tree/v7.2.99"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-11-29T08:37:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
