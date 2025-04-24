@@ -1,3 +1,3 @@
 <x-layout>
-    <h1>Welcome to laravel</h1>
+    <h1>Contact us</h1>
 </x-layout>
