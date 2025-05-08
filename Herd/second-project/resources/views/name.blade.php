@@ -70,7 +70,7 @@
         <h1>Enter Your Name</h1>
 
         <!-- Form to submit a name -->
-        <form action="{{ route('name.store') }}" method="POST">
+        <form action="{{ route('name.store') }}" method="GET">
             @csrf
             <div class="form-group">
                 <label for="name">Your Name:</label>

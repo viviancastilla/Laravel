@@ -19,8 +19,8 @@ class NameController extends Controller
             'color' => 'required|string|max:255',
         ]);
 
-        $name = $request->input('name');
-        $color = $request->input('color');
+        $name = $request->query('name');
+        $color = $request->query('color');
 
         return view('name', [
             'name' => $name,

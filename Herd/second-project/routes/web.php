@@ -8,4 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/name', [NameController::class, 'index'])->name('name.index');
-Route::post('/name', [NameController::class, 'store'])->name('name.store');
+Route::get('/name', [NameController::class, 'store'])->name('name.store');
