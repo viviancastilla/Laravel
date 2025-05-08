@@ -14,11 +14,11 @@ class CallApiService
     public function getF1Races(): array
     {
         // Make API request
-        $response = Http::get('https://api.jolpi.ca/ergast/f1/2025/races/?format=json');
+        $response = Http::get('http://localhost:3000/MRData');
 
         // Return races if successful, else empty array
         return $response->successful()
-            ? $response->json()['MRData']['RaceTable']['Races']
+            ? $response->json()['RaceTable']['Races']
             : [];
     }
 }
