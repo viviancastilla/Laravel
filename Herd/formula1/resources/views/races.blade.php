@@ -72,6 +72,7 @@
 
         .image-section {
             width: 100%;
+            background-image: url('/images/f1.jpg');
         }
 
         .image-section img {
@@ -115,6 +116,7 @@
             <tbody>
                 @foreach ($races as $race)
                     <div class="race-card">
+                        <div class="image-section"></div>
                         <div class="text-section">
                             <tr>
                                 <td>{{ $race['round'] }}</td>
