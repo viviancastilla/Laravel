@@ -27,13 +27,14 @@
                 @foreach ($races as $race)
                     <tr>
                         <td>{{ $race['round'] }}</td>
-                        <td>{{ $race['raceName'] }}</td>
+                        <td><a href={{ $race['url'] }}>{{ $race['raceName'] }}</td>
                         <td>{{ $race['date'] }}</td>
                         <td>{{ $race['Circuit']['circuitName'] }}</td>
                         <td>{{ $race['Circuit']['Location']['country'] }}</td>
                     </tr>
                 @endforeach
             </tbody>
+            </div>
         </table>
     @endif
 
